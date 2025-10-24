@@ -3,19 +3,29 @@ body{
     grid-template-columns: 1fr 4fr;
 }
 
+img, h1, main, article, nav, footer{
+    border:solid black 3px;
+    border-radius:10px;
+    margin:5px
+}
+
+article{
+    margin:10px;
+}
+
 img{
-    width:50px;
+    width:150px;
     height:auto;
 }
 
-h1{
-
+h1, article, footer{
+text-align: center;
 }
 
-nav{
-    grid-column: 3/4;
+nav, img{
+    grid-column: 1/2;
 }
 
-main{
-    border:solid black 3px;
+footer, h1, main, article{
+    grid-column:2/2;
 }
