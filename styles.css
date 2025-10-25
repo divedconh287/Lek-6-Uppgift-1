@@ -1,6 +1,7 @@
 body{
     display:grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 25vh 65vh 20vh;
 }
 
 img, h1, main, article, nav, footer{
@@ -10,15 +11,15 @@ img, h1, main, article, nav, footer{
 }
 
 article{
-    margin:10px;
+    margin:5px;
 }
 
-img{
+img,nav{
     width:150px;
     height:auto;
 }
 
-h1, article, footer{
+h1, article, footer, nav{
 text-align: center;
 }
 
